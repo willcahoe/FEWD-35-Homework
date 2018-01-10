@@ -1,0 +1,444 @@
+
+
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(82, 86, 89);
+}
+
+body {
+  background-color: rgb(82, 86, 89);
+}
+
+.official-site {
+  color: rgb(222, 224, 226);
+  text-align: center;
+  margin-left: 15px;
+  font-size: 12px;
+  font-family: Roboto, system-ui, sans-serif;
+}
+
+.icon {
+  margin-left: 150px;
+}
+
+.footer-10x {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgb(82, 86, 89);
+}
+
+.main-containers {
+  height: 100px;
+  width: 100%;
+  margin: 10px 0;
+  background-color: rgb(82, 86, 89);
+}
+
+.main-container-list {
+}
+
+.container-1 {
+  background-color: #212121;
+  margin: 0 0 0 0;
+  height: 500px;
+}
+
+
+.container-2 {
+  display: flex;
+  background-color: #f9f9f9;
+  height: 300px;
+  margin: 0 0 0 0;
+}
+@media (max-width: 480px) {
+ .container-2 {
+   flex-direction: column;
+   height: 900px;
+ }
+}
+
+.container-2-part-1 {
+width: 25%;
+background-color: #f9f9f9;
+margin-top: 75px;
+}
+@media (max-width: 480px) {
+ .container-2-part-1 {
+   flex-direction: column;
+   height: 100px;
+   width: 100%;
+   margin-top: 50px;
+ }
+}
+
+.container-2-part-2 {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  background-color: #f9f9f9;
+  margin: 40px 50px 0 50px;
+  justify-content: : center;
+  font-size: 21px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: 500;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  margin: 0 0 0 0;
+  height: 175px;
+}
+@media (max-width: 480px) {
+ .container-3 {
+   flex-direction: column;
+   height: 200px;
+ }
+}
+
+
+.how-is {
+  color: rgb(48, 151, 255);
+  font-size: 50px;
+  margin: 0 0 0 135px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+   .how-is {
+     margin-top: 50;
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: 0;
+     text-align: center;
+   }
+  }
+
+  .invests {
+  }
+  @media (max-width: 480px) {
+     .invests {
+       line-height: 1.2;
+       text-align: center;
+     }
+    }
+
+
+.different {
+  color: white;
+  font-size: 50px;
+  margin: 0 0 0 135px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+ .different {
+   margin: 0 20px 0 20px;
+   text-align: center;
+ }
+}
+
+
+.different-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 50px;
+  margin: 0 0 0 95px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+ .different-2 {
+   margin: 0 0 0 0;
+ }
+}
+
+.container-3-margins {
+  margin-top: 30px;
+}
+
+.container-4 {
+  background-color: #212121;
+  font-size: 25px;
+  font-family: Roboto, system-ui, sans-serif;
+  color: white;
+  color: white;
+  margin: 0 0 0 0;
+  }
+  @media (max-width: 480px) {
+   .container-4 {
+     height: 250px;
+     margin-left: 0;
+     margin-right: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     text-align: center;
+    }
+  }
+
+.iterative-approach {
+  margin: 0 135px 0 135px;
+}
+@media (max-width: 480px) {
+ .iterative-approach {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 30px;
+   text-align: center;
+  }
+}
+
+
+.container-5 {
+  height: 400px;
+  text-align: center;
+  background-color: #212121;
+  margin: 0 0 0 0;
+}
+@media (max-width: 480px) {
+ .container-5 {
+   height: 0px;
+  }
+}
+
+.reserve-this {
+margin: 0;
+}
+@media (max-width: 480px) {
+ .reserve-this {
+   display: none;
+  }
+}
+
+.scroll {
+}
+@media (max-width: 480px) {
+ .scroll {
+   display: none;
+  }
+}
+
+.container-6 {
+  display: flex;
+  font-family: Roboto, system-ui, sans-serif;
+  background-color: #212121;
+  height: 500px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media (max-width: 480px) {
+ .container-6 {
+   height: 2000px;
+   flex-direction: column;
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0 0 0 0;
+   align-items: center;
+   text-align: center;
+  }
+}
+
+ul {
+}
+@media (max-width: 480px) {
+ ul {
+   min-width: 80%;
+   list-style: none;
+  }
+}
+
+.traditional-way {
+  display: flex;
+  color: rgb(222, 224, 226);
+  font-size: 21px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(222, 224, 226);
+  width: 42%;
+  margin-left: 60px;
+}
+@media (max-width: 480px) {
+ .traditional-way {
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   width: 80%;
+  }
+}
+
+.the-traditional-way {
+  display: flex;
+  color: rgb(222, 224, 226);
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+ .the-traditional-way {
+   margin: 0;
+  }
+}
+
+
+.vs {
+  display: flex;
+  width: 16%;
+  color: rgb(222, 224, 226);
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: Roboto, system-ui, sans-serif;
+}
+@media (max-width: 480px) {
+ .vs {
+   margin: 20px 0 60px 0;
+  }
+}
+
+
+.new-way {
+  display: flex;
+  font-size: 21px;
+  color: rgb(222, 224, 226);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(222, 224, 226);
+  width: 42%;
+  margin-right: 60px;
+}
+@media (max-width: 480px) {
+ .new-way {
+   margin: 0 0 0 0;
+  }
+}
+
+
+.blue {
+  color: rgb(48, 151, 255);
+}
+
+li {
+   margin:0 0 30px 0;
+}
+
+.container-7 {
+  display: flex;
+  height: 175px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(48, 151, 255);
+  margin: 0 0 0 0;
+}
+
+
+.container-8 {
+  display: flex;
+  height: 75px;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+
+
+.container-9 {
+  height: 40px;
+  margin: 0 0 0 0;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(82, 86, 89);
+  font-size: 12px;
+  font-family: Roboto, system-ui, sans-serif;
+  color: rgb(222, 224, 226);
+}
+
+
+.bottom-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 400px 25px 400px;
+}
+
+
+.learn-more {
+font-size: 35px;
+font-family: Roboto, system-ui, sans-serif;
+font-weight: 500;
+color: white;
+margin: 0 0 0 15%;
+}
+
+
+.learn-more-button {
+margin-right: 15%;
+font-size: 18px;
+font-weight: bolder;
+background-color: rgb(48, 151, 255);
+color: white;
+border: 2px solid white;
+border-radius: 8px;
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 100%;
+  background-color: #212121;
+  margin: 12px 0 12px 0;
+  font-size: 12px;
+  font-family: Roboto, system-ui, sans-serif;
+  color: rgb(222, 224, 226);
+}
+
+.white {
+  font-size: 40px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.x {
+  font-size: 40px;
+  font-family: Roboto, system-ui, sans-serif;
+  font-weight: bold;
+  color: rgb(48, 151, 255);
+  text-align: center;
+  align-items: flex-end;
+}
+
+
+/*list of problems oh god so many:*/
+/*Footer is not at the bottom of the webpage*/
+/*Footer is appearing in container 2*/
+/*Flag icon is stretching to the entire height of the container. <- solved by aligning items to center*/
+/*Could not get items into the center of the page. <- solved. The problem was using flex-center as a CSS property instead of just center.
+
+/*Questions:*/
+/*How to use inspect on a pdf in a browser, how to find the fonts, etc. in a browser*/
+/*how to get the text in container 7 on two lines*/
+/*how to maniupulate the button in CSS, class or what? Do I have to flex-wrap and make it into 2 boxes?*/
+/*can't get the "WHAT IS 10x?" to align vertically near the top, so I'm playing with margins instead.*/
